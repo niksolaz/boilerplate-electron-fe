@@ -1,7 +1,7 @@
 {
-  "name": "daily-planner",
+  "name": "boilerplate-vue-electron",
   "version": "1.0.0",
-  "description": "daily planner in Electron.js",
+  "description": "Boilerplate vue in Electron.js",
   "main": "dist-electron/main/index.js",
   "keywords": [],
   "author": "Nicola Solazzo",

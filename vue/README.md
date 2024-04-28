@@ -1,5 +1,3 @@
-# daily-planner
-daily planner in Electron.js and Vue 3 and Typeascript
 
 # Install packages
 ```

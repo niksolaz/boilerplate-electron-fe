@@ -1,17 +1,12 @@
-import React from 'react';
+import './App.css'
+import React from 'react'
 
-declare namespace JSX {
-    interface IntrinsicElements {
-        [elemName: string]: any;
-    }
+export default function App() {
+  return (
+    <React.Fragment>
+      <h1>Boilerplate Electron + React</h1>
+    </React.Fragment>
+  )
 }
 
-const App: React.FC = () => {
-    return (
-        <div>
-            <h1>Electron + React</h1>
-        </div>
-    );
-};
-
-export default App;
+// Path: react/src/App.css

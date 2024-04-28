@@ -28,7 +28,7 @@ const quitApp: Function = (): void => {
  * Service Notification
  */
 let MSG = {
-  title: 'Daily Planner',
+  title: 'Boilerplate Electron Vue Vite',
   body: 'Application Connected',
   icon: ''
 }
@@ -40,7 +40,7 @@ const showNotification = () => new Notification({ title: MSG.title, body: MSG.bo
 
 async function createWindow() {
   win = new BrowserWindow({
-    title: 'Daily Planner Main',
+    title: 'Boilerplate Electron Vue Vite',
     webPreferences: {
       preload,
       nodeIntegration: false,

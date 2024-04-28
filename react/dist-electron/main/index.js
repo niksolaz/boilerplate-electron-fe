@@ -20,15 +20,15 @@ const quitApp = () => {
   win = null;
   electron.app.quit();
 };
-let MSG = {
-  title: "Boilerplate Electron Vue Vite",
+const MSG = {
+  title: "Boilerplate Electron React Vite",
   body: "Application Connected",
   icon: ""
 };
 const showNotification = () => new electron.Notification({ title: MSG.title, body: MSG.body, icon: MSG.icon }).show();
 async function createWindow() {
   win = new electron.BrowserWindow({
-    title: "Boilerplate Electron Vue Vite",
+    title: "Boilerplate Electron React Vite",
     webPreferences: {
       preload,
       nodeIntegration: false,
