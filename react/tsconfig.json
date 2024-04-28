@@ -15,7 +15,7 @@
     "jsx": "react-jsx",
 
      /* Allow synthetic default imports */
-     "allowSyntheticDefaultImports": true,
+     "allowSyntheticDefaultImports": false,
 
     /* Linting */
     "strict": true,

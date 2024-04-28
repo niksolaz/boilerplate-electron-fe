@@ -1,11 +1,11 @@
 import './App.css'
-import React from 'react'
+import { Fragment } from 'react'
 
 export default function App() {
   return (
-    <React.Fragment>
+    <Fragment>
       <h1>Boilerplate Electron + React</h1>
-    </React.Fragment>
+    </Fragment>
   )
 }
 
