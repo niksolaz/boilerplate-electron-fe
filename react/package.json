@@ -1,8 +1,11 @@
 {
-  "name": "react",
+  "name": "boilerplate-react-electron",
   "version": "1.0.0",
   "description": "",
   "main": "dist-electron/main/index.js",
+  "keywords": [],
+  "author": "Nicola Solazzo",
+  "license": "MIT",
   "scripts": {
     "start": "vite",
     "electron": "electron .",
@@ -12,9 +15,6 @@
     "preview": "vite preview",
     "postinstall": "electron-builder install-app-deps"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
     "react": "^17.0.2",
